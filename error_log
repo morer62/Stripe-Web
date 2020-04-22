@@ -1,0 +1,104 @@
+[07-Jul-2019 21:29:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function required_once() in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/index.php on line 8
+[07-Jul-2019 21:30:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function required_once() in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/index.php on line 8
+[08-Jul-2019 16:05:46 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1EtzKFCkh08mnrAJZMM5ZytF. in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_kU5WHMhNLKay0r'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/C in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[08-Jul-2019 16:09:10 UTC] PHP Fatal error:  Uncaught Stripe\Error\Authentication: No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions. in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:342
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(125): Stripe\ApiRequestor->_requestRaw('post', '/v1/charges', Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiOperations/Request.php(57): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#3 /home/tfn0i7pczlo9/public_html/Client/cl in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 342
+[08-Jul-2019 19:16:25 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_3CtzeK6LIPmATa'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[08-Jul-2019 19:16:47 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_Bf7O3RrQf5LqMR'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[08-Jul-2019 19:18:14 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_H9Cf58h0QcM2Qi'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[08-Jul-2019 19:19:12 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_XOIun4BUG6i2dY'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[08-Jul-2019 19:19:34 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_NPV7WmIvaTWgNL'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[08-Jul-2019 19:20:29 UTC] PHP Fatal error:  Uncaught Stripe\Error\Card: Cannot charge a customer that has no active card in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:214 from API request 'req_X1mPKcfvFzT32K'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 214
+[06-Aug-2019 05:21:49 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1F4L5fCkh08mnrAJPTZHfCzc. in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_RdZw8deQ58Vafg'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/C in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[06-Aug-2019 05:25:04 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1F4L8gCkh08mnrAJLjSN3jj in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_PFDvWddtu7J5z5'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/ in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[06-Aug-2019 05:25:30 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1F4L8gCkh08mnrAJLjSN3jj in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_ViMQCE8QUqYz48'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/ in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[06-Aug-2019 05:27:04 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1F4L8gCkh08mnrAJLjSN3jj in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_MJ5Wt0u8hVR2A2'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/ in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[06-Aug-2019 05:27:22 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1F4L8gCkh08mnrAJLjSN3jj in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_PHWMo9io09STb2'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/ in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[06-Aug-2019 18:14:14 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1F4L8gCkh08mnrAJLjSN3jj in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_pXCswabdpEvcwY'
+Stack trace:
+#0 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/ in /home/tfn0i7pczlo9/public_html/Client/clicwash.com/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[10-Oct-2019 00:36:57 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1FRpeGCkh08mnrAJCVDwlnno in /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_4iXgRkLCxruhuY'
+Stack trace:
+#0 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiOperations/Request.php(57): Stripe\ApiRequestor->request('post', '/v1 in /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
+[12-Nov-2019 19:27:02 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1Fe2FmInG1IOcebtS3hjs9xb. in /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_gXgWWdziZJUeYd'
+Stack trace:
+#0 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiOperations/Request.php(57): Stripe\Ap in /home/aqefhzfwzg4d/public_html/php/funciones/test-stripe/stripe-php/lib/ApiRequestor.php on line 210
