@@ -2,7 +2,7 @@ Tanks for your Payment - Go to Charge.php to verify the information of your code
 
 If you have any error on yout code, Go to the "Events" Panel in your Stripe Dashboard to verify<br><br>
 
-Always Remenber to change your Public Key and your Private KeY!!!
+Always Remenber to change your Public Key and your Private Key!!!
 
 <?php
 require_once('stripe-php/init.php');
@@ -11,7 +11,7 @@ require_once('stripe-php/init.php');
 $token = $_POST["stripeToken"];
 
  
-
+/*
  
 // This is a $20.00 charge in US Dollar.
 //Charging a Customer
@@ -124,6 +124,8 @@ $customer = \Stripe\Customer::create(array(
 
 // Save the customer id in your own database!
 // Charge the Customer instead of the card
+
+/*
 $charge = \Stripe\Charge::create(array(
     "amount" => 2000,
  "description" => "Purchase off Caite watch",
@@ -160,4 +162,6 @@ $charge = \Stripe\Charge::create(array(
 //    "plan" => "gold"
 //));
 //print_r($subscription);
+
+*/
 ?>
